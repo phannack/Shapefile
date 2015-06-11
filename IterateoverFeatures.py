@@ -10,4 +10,4 @@ dataSource = driver.Open(shapefile, 0)
 layer = dataSource.GetLayer()
 
 for feature in layer:
-    print feature.GetField("STATE_NAME")
+    print feature.GetField("SOURCE_3") # Get field SOURCE_3 all feature
